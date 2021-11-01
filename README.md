@@ -92,7 +92,7 @@ Row	| day |	players_joined | players_retained |	fractional_retention
 
 Visualizing the retention trend
 
-![area text](https://github.com/shamit24/Project1/blob/aaf46e50559dc0e7176676a74d00f461436ad5ac/Players%20Retained%20per%20Day.png)
+![Retention per day](https://github.com/shamit24/RetentionSQLProject/blob/4b3c37be1f4d8ba5e98b67be0a07430327d62bdd/Players%20Retained%20per%20Day.png)
 
 Link to Sheets: https://docs.google.com/spreadsheets/d/1ZI6F-oPvFeFWFFtY2iy2gbvRlU8PVGmghpxvGHDekWc/edit?usp=sharing
 
@@ -155,7 +155,7 @@ This query answers the question of whether players with rolling 30-day retention
 
 This visual will help answer the question: Do players with rolling 30-day retention spend more?
 
-![Total Money Spent based on Retention Status](https://github.com/shamit24/Project1/blob/69c1c9d0ab772eca939412ad716bdeb19937a998/Money%20Spent%20based%20on%20Retention.png)
+![Total Money Spent based on Retention Status](https://github.com/shamit24/RetentionSQLProject/blob/4b3c37be1f4d8ba5e98b67be0a07430327d62bdd/Money%20Spent%20based%20on%20Retention.png)
 
 Link to sheets: https://docs.google.com/spreadsheets/d/1yBpE0wsp_haIWUrJQE11YqygO7IgR72tJ_zqr3O-q8A/edit?usp=sharing
 
@@ -204,7 +204,7 @@ ORDER BY
 * Then we `COUNT` the `player_id` as they are filtered to be only the retained players
 * Finally we `GROUP BY` location to output our final table
   
-  ![Retained Players based on Location](https://github.com/shamit24/Project1/blob/4f2e8bfd58a642137b9f728572190c05ccfa029f/Retained%20players%20per%20location.png)
+  ![Retained Players based on Location](https://github.com/shamit24/RetentionSQLProject/blob/4b3c37be1f4d8ba5e98b67be0a07430327d62bdd/Retained%20players%20per%20location.png)
   
   According to our analysis, the largest amount of retained players come from South America. After visualizing the data, we can see that the difference in the amnount of retained players per location is very minimal.
  
